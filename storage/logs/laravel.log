@@ -1,0 +1,9 @@
+[2023-09-15 21:52:36] local.ERROR: There are no commands defined in the "jetstream" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"jetstream\" namespace. at /srv/http/unhas/vendor/symfony/console/Application.php:657)
+[stacktrace]
+#0 /srv/http/unhas/vendor/symfony/console/Application.php(708): Symfony\\Component\\Console\\Application->findNamespace()
+#1 /srv/http/unhas/vendor/symfony/console/Application.php(262): Symfony\\Component\\Console\\Application->find()
+#2 /srv/http/unhas/vendor/symfony/console/Application.php(174): Symfony\\Component\\Console\\Application->doRun()
+#3 /srv/http/unhas/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#4 /srv/http/unhas/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
